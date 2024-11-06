@@ -1,0 +1,282 @@
+/*!***********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles/main.css ***!
+  \***********************************************************************/
+body {
+    background-color: #eee;
+    font-family: sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: darkred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.options {
+    width: 30%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.options a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    width: 30%;
+    font-size: 50px;
+    margin-left: 20px;
+
+}
+
+.optionsList {
+    display: flex;
+}
+
+.appName {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.appName h1 {
+
+    color: white;
+
+}
+
+.content {
+    width: 100%;
+    height: 85vh;
+
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(203, 202, 202);
+}
+.type {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 30px;
+    background-color: darkred;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    
+}
+.type h4{
+    color: white;
+}
+
+
+.name {
+    background-color: rgb(172, 168, 168);
+    height: 30%;
+    width: 100%;
+}
+.name h4 {
+    text-align: center;
+    font-size: bold;
+    color: black;
+}
+
+.button {
+    background-color: rgb(245, 202, 202);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+}
+
+.price {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantities {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(172, 168, 168);
+
+}
+#product-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap
+}
+#cart-items{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap 
+}
+
+.container{
+    min-width: 200px;
+    min-height: 200px;
+    margin: 20px;
+    border: 1px solid gray; 
+}
+
+
+.highlighted{
+    background-color: #a83232; 
+    color: white; 
+    border-radius: 5px; 
+}
+.nav-link{
+    color: white;
+    padding: 5px 10px; 
+}
+#search-input {
+    background-color: darkred; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    padding: 10px; 
+    width: 200px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom:10px ;
+}
+#product-selector{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(89, 0, 0);
+    color: white;
+    margin-left: 10px;
+}
+#product-selector-container{
+    font-size: 25px;
+    margin-top: 50px;
+    background-color: darkred; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    padding: 10px;
+    min-width: 200px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+    margin-bottom:10px ;
+}
+
+#search-input::placeholder {
+    color: #bbb; 
+}
+.hidden {
+    display: none;
+  }
+  #search-box{
+    display: flex;
+  }
+
+  .btn{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #a83232;
+    margin-left: 10px;
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+  }
+
+#cart-total {
+    background-color: #f3f3f3;
+    border-top: 1px solid #ccc;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+.updateButton{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#search-input {
+    font-size: 16px;
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+#search-button {
+    padding: 8px 16px;
+    background-color: #a83232;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#search-button:hover {
+    background-color: #9f1f1f;
+}
+.searchBox{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#search-button-clean {
+    padding: 8px 16px;
+    background-color: #a83232;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#search-button-clean:hover {
+    background-color: #9f1f1f;
+}
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}

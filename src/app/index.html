@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <title>Practica M06</title>
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="logo">🛒</div>
+        <div class="appName">
+            <h1>
+                PRACTICA CARRITO DE COMPRAS
+            </h1>
+
+        </div>
+        <div class="options">
+            <h4 id="view-products" class="nav-link">Comprar</h4>
+            <h4 id="view-cart" class="nav-link">Ver carrito</h4>
+        </div>
+    </header>
+    <main class="content">
+        <div id="search-box" style="display: flex; justify-content: center; align-items: center;">
+          <div id="product-selector-container" style="display: flex; justify-content: center;
+          align-items: center;">
+            <div>
+                 <label for="product-selector">Seleccione un producto:</label>
+            <select id="product-selector">
+              <option value="" selected>Selecciona...</option>
+            </select>
+            </div>
+            <div>
+                 <button id="addProduct" class="btn">Añadir</button>
+            </div>
+           
+
+           
+          </div>  
+        
+        
+        </div>
+       
+        <div id="product-list"class="hidden" ></div> 
+        <div id="cart-list">
+             <!-- Adicionando o campo de busca e botão -->
+             <div class="searchBox">
+                <input type="text" id="search-input" placeholder="Buscar productos ..." />
+                <button id="search-button">Buscar</button>
+                <button id="search-button-clean" class="clean">Limpiar búsqueda</button>
+            </div>
+            <div id="cart-items"></div>
+              <!-- Nova seção para o total do carrinho -->
+                <div id="cart-total" style="padding: 10px; font-size: 18px; font-weight: bold; text-align: center;">
+                    Total a pagar: R$ 0.00
+                </div>
+        </div> 
+
+</main>
+<footer>
+   Ludmila da Silva Marques - DAW
+</footer>
+</body>
+</html>
